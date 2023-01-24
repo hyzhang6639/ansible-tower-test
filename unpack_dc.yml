@@ -8,7 +8,6 @@
     ctl_tmp_dir: "/tmp"
     dc_branch: "develop"
     dc_install_dir: "{{ dc_build_dir }}/{{ dc_branch }}"
-  environment: "{{ environment_vars }}"
 
   tasks:
     # ##########################################################################
